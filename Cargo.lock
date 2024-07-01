@@ -324,7 +324,6 @@ name = "cargo-npk"
 version = "0.9.2-pre"
 dependencies = [
  "anyhow",
- "atty",
  "cargo-subcommand",
  "cargo_metadata",
  "clap 4.4.18",
@@ -361,9 +360,9 @@ dependencies = [
 
 [[package]]
 name = "cargo_metadata"
-version = "0.15.4"
+version = "0.18.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "eee4243f1f26fc7a42710e7439c149e2b10b05472f88090acce52632f231a73a"
+checksum = "2d886547e41f740c616ae73108f6eb70afe6d940c7bc697cb30f13daec073037"
 dependencies = [
  "camino",
  "cargo-platform",
@@ -1424,9 +1423,9 @@ dependencies = [
 
 [[package]]
 name = "memoffset"
-version = "0.9.0"
+version = "0.9.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5a634b1c61a95585bd15607c6ab0c4e5b226e695ff2800ba0cdccddf208c406c"
+checksum = "488016bfae457b036d996092f6cb448677611ce4449e970ceaf42695203f218a"
 dependencies = [
  "autocfg",
 ]
